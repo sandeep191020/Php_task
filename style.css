@@ -1,0 +1,82 @@
+.container {
+    width: 370px !important;
+    height: 310px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: auto;
+    margin-top: 230px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+body {
+    background-image: url("city.jpg");
+    background-repeat: repeat-x;
+}
+table{
+    margin-top: 600px; 
+    width: 100%;
+    
+}
+th{
+    background: rgb(63,94,251);
+    color:floralwhite;
+}
+th, td {
+    padding: 20px 100px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+/* #log tr:nth-child(even){background-color: #f2f2f2;}
+#log tr:hover {background-color: #ddd};  */
+button {
+    margin: 2em auto!important;
+    display: block;
+    -webkit-appearance: none;
+    border: 6px solid rgba(255, 255, 255, 0.45);
+    border-radius: 50px!important;
+    padding: 0.75em 3em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: padding-box;
+    position: relative;
+    color: #fff;
+    -webkit-border-radius: 50px!important;
+    -moz-border-radius: 50px!important;
+    -ms-border-radius: 50px!important;
+    -o-border-radius: 50px!important;
+}
+button:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50px;
+    z-index: -1;
+    filter: blur(14px);
+}
+button:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50px;
+    z-index: -1;
+    filter: blur(14px);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.button2 {
+    background-image: linear-gradient(90deg, #fa80d2, #fed757);
+}
+.button2:before {
+    background-image: linear-gradient(90deg, #fa80d2, transparent);
+}
+.button2:after {
+    background-image: linear-gradient(90deg, transparent, #fed757);
+}
+
